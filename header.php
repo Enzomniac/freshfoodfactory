@@ -21,14 +21,14 @@ include("functions.php");
                 <li class="link-item <?php setActive("index"); ?>"><a href="index.php">Home</a></li>
                 <li class="link-item <?php setActive("what-we-do"); ?>"><a href="what-we-do.php">What we do</a></li>
                 <li class="link-item <?php setActive("about-us"); ?>"><a href="about-us.php">About us</a></li>
-                <li class="link-item <?php setActive("book_a_session"); ?>"><a href="book-a-session.php">Book a session</a></li>
-                <li class="link-item <?php setActive("contact_us"); ?>"><a href="contact-us.php">Contact Us</a></li>                
+                <li class="link-item <?php setActive("book-a-session"); ?>"><a href="book-a-session.php">Book a session</a></li>
+                <li class="link-item <?php setActive("contact-us"); ?>"><a href="contact-us.php">Contact Us</a></li>                
             </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
             <span></span>
         </label>
-        <div class="logo-box <?php checkHero($_SERVER['PHP_SELF']); ?>">
+        <div class="logo-box <?php checkHero(); ?>">
             <div class="logo">
                 <img src="assets/ffflogomobile.jpg">            
             </div>

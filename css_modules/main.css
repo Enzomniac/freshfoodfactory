@@ -85,14 +85,66 @@ section h2 {
     font-size: 1.2rem;
 }
 
+/* CARDS */
+.section__title {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.section__title::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    max-width: 5rem;
+    background: white;
+    bottom: -1.2rem;
+    left: 0;
+    right: 0;
+    margin: auto;   
+}
+
+.card-deck {
+    display: flex;
+    flex-basis: 22rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.a-card {
+    /* border: 1px solid red; */
+    width: 22rem;
+    margin: 2rem 1rem;
+}
+
+.card__title {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.card__image {
+    content: "";
+    height: 12rem;
+    width: 100%;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 1.5rem;
+}
+
+.card__p {
+    text-align: left;
+    line-height: 1.5rem;
+}
+
 @media screen and (min-width: 768px) {
     .sign-up {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-
-
 
     .sign-up input {
         margin-top: 1rem;
