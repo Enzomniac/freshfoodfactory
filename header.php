@@ -8,6 +8,7 @@ include("functions.php");
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.1/css/all.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -33,7 +34,7 @@ include("functions.php");
                 <img src="assets/ffflogomobile.jpg">            
             </div>
             <div class="featured-image">                
-                <img src="assets/feutured.jpg">            
+                <img src="assets/featured.jpg">            
             </div>  
         </div>
 
