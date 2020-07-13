@@ -63,7 +63,7 @@ function makeEnquiry() {
 }
 
 function enquiryFunctionality() {    
-    $isTesting = TRUE;
+    $isTesting = FALSE;
     $headers = "From: eat@thefreshfoodfactory.co.za";
 
     if ($isTesting) {

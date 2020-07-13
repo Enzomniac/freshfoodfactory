@@ -409,7 +409,7 @@ section h2 {
     font-size: 0.8rem;
 }
 
-#a-review__modal {
+#a-review__modal-1, #a-review__modal-2, #a-review__modal-3 {
     display: none;
     position: fixed;
     top: 0;
@@ -419,7 +419,7 @@ section h2 {
     background: rgba(0, 0, 0, 0.9);  
 }
 
-#a-review__modal:target {
+#a-review__modal-1:target, #a-review__modal-2:target, #a-review__modal-3:target {
     display: flex;
     justify-content: center;
     align-items: center;

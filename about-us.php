@@ -85,12 +85,12 @@ include("header.php");
                         The Pizza in a box is pure magic in our kitchen. Everyone jumped in.
                     </div>
                     <div class="a-review__link">
-                        <a href="#a-review__modal" class="review__anchor">Read full review ></a>
+                        <a href="#a-review__modal-1" class="review__anchor">Read full review ></a>
                     </div>
                     <div class="a-review__author">
                         Fisher Family <span class="a-review__date">2020/05/18</span>
                     </div>
-                    <div class="modal" id="a-review__modal">
+                    <div class="modal" id="a-review__modal-1">
                         <div class="a-review__modal-container">
                             <a href="#modal-close" class="modal__close-button">x</a>
                             <div class="a-review__stars">
@@ -104,7 +104,7 @@ include("header.php");
                                 'Yummy and Easy'
                             </h4>
                             <div class="a-review__copy">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate praesentium fugit, doloremque aliquam explicabo harum architecto quae eligendi expedita nam aperiam laborum voluptatum consectetur a voluptatibus, ut repudiandae facilis suscipit. Reprehenderit quia repudiandae numquam corrupti corporis facilis eaque minima obcaecati aspernatur id fugit nulla deserunt soluta laboriosam, consequuntur repellat labore!
+                                The Pizza in a box is pure magic in our kitchen. Everyone jumped in.
                             </div>                           
                             <div class="a-review__author">
                                 Fisher Family <span class="a-review__date">2020/05/18</span>
@@ -130,12 +130,12 @@ include("header.php");
                         "Support this local company. The pizza was incredible. "
                     </div>
                     <div class="a-review__link">
-                        <a href="#a-review__modal" class="review__anchor">Read full review ></a>
+                        <a href="#a-review__modal-2" class="review__anchor a-review__modal">Read full review ></a>
                     </div>
                     <div class="a-review__author">
-                        The Marray's <span class="a-review__date">2020/05/18</span>
+                        The Murray's <span class="a-review__date">2020/05/18</span>
                     </div>
-                    <div class="modal" id="a-review__modal">
+                    <div class="modal" id="a-review__modal-2">
                         <div class="a-review__modal-container">
                             <a href="#modal-close" class="modal__close-button">x</a>
                             <div class="a-review__stars">
@@ -146,13 +146,13 @@ include("header.php");
                                 <i class="fas fa-star"></i>
                             </div>
                             <h4 class="a-review__title">
-                                'Yummy and Easy'
+                                'Delicious and Easy'
                             </h4>
                             <div class="a-review__copy">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate praesentium fugit, doloremque aliquam explicabo harum architecto quae eligendi expedita nam aperiam laborum voluptatum consectetur a voluptatibus, ut repudiandae facilis suscipit. Reprehenderit quia repudiandae numquam corrupti corporis facilis eaque minima obcaecati aspernatur id fugit nulla deserunt soluta laboriosam, consequuntur repellat labore!
+                                "Support this local company. The pizza was incredible. "
                             </div>                           
                             <div class="a-review__author">
-                                The Marray's <span class="a-review__date">2020/05/18</span>
+                                The Murray's <span class="a-review__date">2020/02/11</span>
                             </div>
                             <button class="a-review__link">
                                 <a href="#modal-close" class="review__anchor">CLOSE REVIEW</a>
@@ -175,10 +175,34 @@ include("header.php");
                         'Delicious and Easy DIY pizza delivered to your door.'
                     </div>
                     <div class="a-review__link">
-                        Read full review >
+                        <a href="#a-review__modal-3" class="review__anchor a-review__modal">Read full review ></a>
                     </div>
                     <div class="a-review__author">
                         Sunette Potgieter <span class="a-review__date">2020/05/18</span>
+                    </div>
+                    <div class="modal" id="a-review__modal-3">
+                        <div class="a-review__modal-container">
+                            <a href="#modal-close" class="modal__close-button">x</a>
+                            <div class="a-review__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4 class="a-review__title">
+                                'Absolutely Amazeballs'
+                            </h4>
+                            <div class="a-review__copy">
+                                'Delicious and Easy DIY pizza delivered to your door.'
+                            </div>                           
+                            <div class="a-review__author">
+                                Sunette Potgieter <span class="a-review__date">2020/04/21</span>
+                            </div>
+                            <button class="a-review__link">
+                                <a href="#modal-close" class="review__anchor">CLOSE REVIEW</a>
+                            </button> 
+                        </div>
                     </div>
                 </div>
             </div>
