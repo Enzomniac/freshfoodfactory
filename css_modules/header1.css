@@ -24,7 +24,6 @@ header {
     display: none;
 }
 
-
 .nav-toggle {
     display: none;
 }
@@ -48,6 +47,7 @@ header {
     width: 1.2rem;
     border-radius: 2px;
     position: relative;
+    cursor: pointer;
 }
 
 .nav-toggle-label span::before,

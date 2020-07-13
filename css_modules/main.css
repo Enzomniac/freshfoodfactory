@@ -1,3 +1,10 @@
+/* helpers */
+.plain-anchor {
+    text-decoration: none;
+    color: inherit;
+}
+/* ============================ */
+
 section {
     padding: 2rem;
 }
@@ -28,6 +35,22 @@ section h2 {
     text-transform: uppercase;
     border-radius: 4px;
     text-decoration: none;
+}
+
+.form-as-link {
+    display: block;    
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.form-as-link button {
+    background: none;
+    border: none;
+    color: rgb(168, 168, 168);
+    line-height: 1.5rem;
+    margin: 0 auto 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .statement {
@@ -158,7 +181,7 @@ section h2 {
 }
 
 .promo__statement {
-    margin: 1rem 0;
+    margin: 2rem 0;
     text-align: center;
     font-size: 1.6rem;
     font-weight: bolder;
@@ -209,6 +232,7 @@ section h2 {
     font-weight: bolder;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 
 .promo__payment-options {
@@ -301,6 +325,8 @@ section h2 {
     align-items: center;
     max-width: 31rem;
     margin:0 auto 2rem;
+    text-decoration: none;
+    color: inherit;
 }
 
 .a-plac__image {
@@ -366,8 +392,13 @@ section h2 {
 }
 
 .a-review__copy {
-    line-height: 1.2rem;
-    color: rgb(71, 71, 71);
+    line-height: 1.2rem;    
+    color: #474747;
+}
+
+.a-review__link a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .a-review__author {
@@ -376,6 +407,44 @@ section h2 {
 
 .a-review__date {
     font-size: 0.8rem;
+}
+
+#a-review__modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);  
+}
+
+#a-review__modal:target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-review__modal-container {
+    position: relative;
+    background: white;
+    width: 300px;
+    max-width: 100%;
+    padding: 2rem 1rem;
+}
+
+.a-review__modal-container > * {
+    margin-bottom: 1rem;
+}
+
+.modal__close-button {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    text-decoration: none;
+    color: rgba(50, 50, 50, 0.8);
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .events {
@@ -397,6 +466,15 @@ section h2 {
     height: 2px;
     width: 5rem;
     margin: 1rem auto;
+}
+
+.events__button {
+    background: inherit;
+    border: none;
+    color: inherit;
+    margin: auto;
+    display: block;
+    cursor: pointer;
 }
 
 .an-event + .an-event {
@@ -429,23 +507,144 @@ section h2 {
     display: none;
 }
 
+.an-event__copy__toggle {
+    display: none;
+}
+
 .an-event__link {
+    display: block;
     color: rgb(180, 180, 180);
     margin-bottom: 3rem;
     margin-left: 1rem;
 }
 
+.an-event__copy__toggle:checked ~ .an-event__copy {
+    display: block;
+    margin-bottom: 1rem;
+}
 
+.events .short {
+    text-align: center;
+}
 
+.of-video {
+    background: black;
+}
 
+.of-video__title {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    text-align: center;
+}
 
+.of-video__title::after {
+    content: "";
+    display: block;
+    background: white;
+    height: 2px;
+    width: 5rem;
+    margin: 1rem auto;
+}
 
+.of-video__frame {
+    display: flex;
+    justify-content: center;
+}
+
+.of-centered-text__title {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.of-centered-text__title::after {
+    content: "";
+    display: block;
+    background: white;
+    height: 2px;
+    width: 5rem;
+    margin: 1rem auto;
+}
+.of-centered-text p {
+    color: rgb(168, 168, 168);
+    line-height: 1.5rem;
+    margin: 0 auto 1rem;
+    font-size: 1.2rem;
+    max-width: 800px;
+}
+
+.of-centered-text__sub-title {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 0.8rem;
+    margin-top: 2rem;
+}
+
+.of-confirmation {
+    background: lightgreen;
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.of-confirmation p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.of-confirmation a {
+    display: block;
+    padding: 1rem 3rem;
+    font-weight: bolder;
+    background: black;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.of-enquiry form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enquiry__a-line {
+    margin-bottom: 1rem;
+}
+
+.enquiry__a-line > * {
+    margin: 0 1rem;
+}
+
+.message__box {
+    width: 400px;
+    max-width: 80%;    
+}
+
+.enquiry__form textarea {
+    width: 100%;
+}
+
+.enquiry__submit {
+    padding: 0.5rem 2.5rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
 
 @media screen and (min-width: 768px) {
     .sign-up {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        text-align: center;
     }
 
     .sign-up input {
@@ -464,7 +663,6 @@ section h2 {
         margin-top: 2rem;
         margin-bottom: 2rem;
         align-items: center;
-
     }
 
     .promo__image-box {
@@ -510,10 +708,10 @@ section h2 {
         max-width: 230px;        
     }
 
-
-
-
-
+    .an-event {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 

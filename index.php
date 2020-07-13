@@ -7,7 +7,7 @@ include("header.php");
             <p class="short">
                 There's much to see here. So, take your time, look around, and learn all there is to know about us.
             </p>
-            <a class="button-link" href="#">
+            <a class="button-link" href="what-we-do.php">
                 Find Out More
             </a>
         </section>
@@ -26,8 +26,9 @@ include("header.php");
             <p class="short">
                 Sign up to hear from us about our events and latest specials
             </p>
-            <form method="post" action="sign-up.php" class="sign-up short">
-                <input type="email" name="email" id="email" placeholder="Email">
+            <form method="post" action="success.php" class="sign-up short" >
+                <input type="hidden" name="sendReferral" value="sign_up">
+                <input type="email" name="email" id="email" placeholder="Email" required>
                 <button type="submit" class="dark">SIGN UP</button>
             </form>
         </section>

@@ -36,7 +36,7 @@ include("header.php");
                 Our Community
             </h3>
             <div class="plac-box">
-                <div class="a-plac">
+                <a class="a-plac" href="https://www.instagram.com/country2plate/" target="_blank">
                     <div class="a-plac__image" style="background-image: url('assets/country_to_plate.jpg')"></div>
                     <h4 class="a-plac__title">
                         Country to Plate
@@ -44,17 +44,17 @@ include("header.php");
                     <p class="a-plac__text">
                         Cheap, affordable and fresh fruit and veg to your door!
                     </p>
-                </div>
-                <div class="a-plac">
-                    <div class="a-plac__image"  style="background-image: url('assets/honeywood.jpg')"></div>
+                </a>
+                <a class="a-plac" href="http://www.honeywoodfarm.co.za/" target="_blank">
+                    <div class="a-plac__image"  style="background-image: url('assets/honeywood.png')"></div>
                     <h4 class="a-plac__title">
                         Honeywood Farm
                     </h4>
                     <p class="a-plac__text">
                         Every household should have a jar of good honey. Fresh from the hive. 
                     </p>
-                </div>
-                <div class="a-plac">
+                </a>
+                <a class="a-plac" href="http://www.foodjams.co.za/" target="_blank">
                     <div class="a-plac__image" style="background-image: url('assets/foodjams.jpg')"></div>
                     <h4 class="a-plac__title">
                         Food Jams Studio
@@ -62,7 +62,7 @@ include("header.php");
                     <p class="a-plac__text">
                         This studio makes giving back a business essential.
                     </p>
-                </div>
+                </a>
             </div>
         </section>
         <section class="reviews" style="background-image:url('assets/review_background.jpg')">
@@ -82,13 +82,37 @@ include("header.php");
                         'Yummy and Easy'
                     </h4>
                     <div class="a-review__copy">
-                        The Pizza in a box is pure magic in our kitchen. Everyone jumped . . .
+                        The Pizza in a box is pure magic in our kitchen. Everyone jumped in.
                     </div>
                     <div class="a-review__link">
-                        Read full review >
+                        <a href="#a-review__modal" class="review__anchor">Read full review ></a>
                     </div>
                     <div class="a-review__author">
                         Fisher Family <span class="a-review__date">2020/05/18</span>
+                    </div>
+                    <div class="modal" id="a-review__modal">
+                        <div class="a-review__modal-container">
+                            <a href="#modal-close" class="modal__close-button">x</a>
+                            <div class="a-review__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4 class="a-review__title">
+                                'Yummy and Easy'
+                            </h4>
+                            <div class="a-review__copy">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate praesentium fugit, doloremque aliquam explicabo harum architecto quae eligendi expedita nam aperiam laborum voluptatum consectetur a voluptatibus, ut repudiandae facilis suscipit. Reprehenderit quia repudiandae numquam corrupti corporis facilis eaque minima obcaecati aspernatur id fugit nulla deserunt soluta laboriosam, consequuntur repellat labore!
+                            </div>                           
+                            <div class="a-review__author">
+                                Fisher Family <span class="a-review__date">2020/05/18</span>
+                            </div>
+                            <button class="a-review__link">
+                                <a href="#modal-close" class="review__anchor">CLOSE REVIEW</a>
+                            </button> 
+                        </div>
                     </div>
                 </div>
                 <div class="a-review">
@@ -106,10 +130,34 @@ include("header.php");
                         "Support this local company. The pizza was incredible. "
                     </div>
                     <div class="a-review__link">
-                        Read full review >
+                        <a href="#a-review__modal" class="review__anchor">Read full review ></a>
                     </div>
                     <div class="a-review__author">
                         The Marray's <span class="a-review__date">2020/05/18</span>
+                    </div>
+                    <div class="modal" id="a-review__modal">
+                        <div class="a-review__modal-container">
+                            <a href="#modal-close" class="modal__close-button">x</a>
+                            <div class="a-review__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4 class="a-review__title">
+                                'Yummy and Easy'
+                            </h4>
+                            <div class="a-review__copy">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate praesentium fugit, doloremque aliquam explicabo harum architecto quae eligendi expedita nam aperiam laborum voluptatum consectetur a voluptatibus, ut repudiandae facilis suscipit. Reprehenderit quia repudiandae numquam corrupti corporis facilis eaque minima obcaecati aspernatur id fugit nulla deserunt soluta laboriosam, consequuntur repellat labore!
+                            </div>                           
+                            <div class="a-review__author">
+                                The Marray's <span class="a-review__date">2020/05/18</span>
+                            </div>
+                            <button class="a-review__link">
+                                <a href="#modal-close" class="review__anchor">CLOSE REVIEW</a>
+                            </button> 
+                        </div>
                     </div>
                 </div>
                 <div class="a-review">

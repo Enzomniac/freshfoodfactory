@@ -8,27 +8,15 @@ include("header.php");
             </div>
             <div class="promo__info-box">
                 <h3 class="promo__statement">
-                    Our Lockdown Promo Offer!
+                    The Champion Pizza Box!
                 </h3>
-                <h3 class="promo__title">
-                    Pizza in a Box
-                </h3>
-                <div class="promo__info">
-                    <div class="promo__price">
-                        R 375.00 <span>(R 0.00 shipping)</span>
-                    </div>
-                    <div class="promo__pay">
-                        <button class="promo__buy-button">BUY NOW</button>
-                        <div class="promo__payment-options">
-                            <img src="assets/cc-badges-ppmcvdam.png" alt="">
-                        </div>
-                    </div>
+                <div class="promo__info">                    
                     <div class="promo__copy">
                         <p>
                             Some of our services cannot operate currently, but we found a way to keep your meals healthy and happy! Contact us for our Pizza in a Box promotion!
                         </p>                        
                         <p>
-                            4 x Ready to cook Pizzas with all the ingredients. So easy even the Kids and cook it!
+                            4 x Family sized pizzas with all the ingredients. So easy even the Kids and cook it!
                         </p>
                     </div>
                 </div>
@@ -114,9 +102,10 @@ include("header.php");
                             Send a gift card to friends and family.
                         </p>                
                     </div>
-                    <div class="promo__pay">
-                        <button class="promo__buy-button">BUY NOW</button>
-                    </div>
+                    <form method="post" action="enquiry.php" class="promo__pay" >
+                        <input type="hidden" name="enquiryReferral" value="giftCard">
+                        <button type="submit" class="promo__buy-button">ENQUIRE NOW</button>
+                    </form>
                 </div>
             </div>
         </section>
